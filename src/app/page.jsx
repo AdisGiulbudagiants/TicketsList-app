@@ -1,9 +1,9 @@
-import TicketsList from '@/components/TicketsList'
+import TicketsList from '@/components/Tickets/TicketsList'
 
 export default function Home() {
   return (
-    <main>
+    <>
       <TicketsList />
-    </main>
+    </>
   )
 }
